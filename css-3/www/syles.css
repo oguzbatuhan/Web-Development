@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+/* head start */
+.head {
+    width: 100vw;
+    background-color: rgb(218, 132, 27);
+}
+.head a {
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    font-weight: 900;
+    color: rgb(48, 45, 45);
+}
+.head a:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+.head h1 {
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    color: white;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* head end */
+
+/* main start */
+.main {
+    width: 100vw;
+    height: 100vh;
+}
+.main-img {
+    background-image: url("img/img-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+}
+.main h1 {
+    padding: 10px;
+}
+.main-blog {
+    display: block;
+    text-align: center;
+    padding: 20px 50px;
+}
+.main-blog_ {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    padding: 20px 50px;
+}
+.main-blog_ ion-icon {
+    color: rgb(218, 132, 27);
+}
+/* main end */
