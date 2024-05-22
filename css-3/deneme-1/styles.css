@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2 {
+    color: rgb(123, 123, 123);
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
+}
+/* bar start */
+.nav-bar {
+    width: 100vw;
+    height: auto;
+    display: block;
+    padding: 10px;
+    background-color: rgb(235, 149, 18);
+    color: black;
+}
+.nav-bar h1 {
+    display: inline-block;
+}
+.nav-bar nav {
+    float: right;
+}
+.nav-bar a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(24, 24, 24);
+    border-radius: 10px;
+}
+.nav-bar a:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+/* bar end */
+
+/* container start */
+.container {
+    width: 100vw;
+}
+/* container end */
+
+/* container-aside start */
+/* container-aside end */
+
+/* container-main start */
+.container-main-img {
+    width: 100vw;
+    height: calc(100vh - 57px);
+    background: url("5-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-main-img h2 {
+    color: white;
+    padding: 80px 160px;
+    font-size: 80px;
+}
+.container-main-text {
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+.container-main-text_ {
+    display: inline-block;
+    width: 100%;
+}
+.container-main-text__ {
+    display: inline-block;
+    width: 33%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.container-main-blog {
+    display: block;
+    background-color: rgb(252, 244, 233);
+    display: flex;
+}
+.container-main-blog img {
+    display: inline-block;
+    width: 50%;
+}
+.container-main-blog div {
+    display: inline-block;
+    width: 50%;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+}
+.container-main-blog button {
+    margin: 10px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 2px 5px;
+}
+.container-main-blog button:hover {
+    background-color: blue;
+    color: white;
+}
+/* container-main end */
+
+/* footer start */
+/* footer end */
