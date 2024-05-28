@@ -50,7 +50,7 @@
     padding: 10px;
     display: block;
     text-align: center;
-    background-color: rgb(152, 226, 255);
+    background-color: white;
 }
 .conteiner-blog h2, .conteiner-blog p {
     display: block;
@@ -69,17 +69,58 @@
     color: black;
     font-size: 18px;
 }
-.conteiner-about {
+.clearfix {
+    background-color: rgb(221, 245, 255);
+}
+.clearfix::after {
+    content: "";
     display: block;
-    display: flex;
+    clear: both;
 }
-.conteiner-about img {
-    width: 50%;
-    display: inline-block;
-}
-.conteiner-about div {
-    display: inline-block;
+.clearfix img {
     width: 40%;
+    float: left;
+    margin-right: 15px;
+}
+.clearfix p, .clearfix h2 {
+    font-size: x-large;
     padding: 5px 10px;
+}
+.menu {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.menu h2 {
+    margin: 30px auto 10px auto;
+    font-size: 50px;
+}
+.menu-plan {
+    border-radius: 5px;
+    width: 33.3%;
+    padding: 5px;
+    float: left;
+}
+.inner-plan {
+    background-color: rgb(221, 245, 255);
+    padding: 25px 10px;
+    border-radius: 10px;
+}
+.menu-plan h2, .menu-plan h3 {
+    padding: 2px 10px;
+}
+.menu button {
+    margin: 5px 10px;
+}
+.menu-clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.menu-plan ul {
+    padding-left: 50px;
 }
 /* conteiner end */
