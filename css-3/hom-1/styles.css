@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    box-sizing: border-box;
+}
+/* header start */
+.header {
+    width: 90%;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    right: 5%;
+    left: 5%;
+}
+.header h1 {
+    text-align: center;
+    display: block;
+    margin: 5px;
+}
+.head hr {
+    width: 100%;
+    color: rgb(66, 66, 66);
+    position: relative;
+}
+/* header end */
+
+/* aside start */
+.aside {
+    display: inline-block;
+    width: 30%;
+    height: 100px;
+    background-color: rebeccapurple;
+}
+/* aside end */
+
+/* main start */
+.main {
+    display: inline-block;
+    width: 70%;
+    height: 100px;
+    background-color: red;
+}
+/* main end */
+
+/* footer start */
+/* footer end */
