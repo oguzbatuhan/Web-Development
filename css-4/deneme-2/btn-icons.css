@@ -1,3 +1,25 @@
-.icons {
-    color: rgb(255, 170, 0);
+.icon {
+    color: rgb(255, 255, 255);
+}
+.icon:hover {
+    color: blue;
+    transition: all .7s;
+
+}
+
+.btn {
+    cursor: pointer;
+    width: 60px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.btn-1 {
+    background-color: black;
+    color: white;
+}
+.btn-1:hover {
+    background-color: white;
+    color: black;
+    transition: .7s;
 }
