@@ -12,6 +12,9 @@
     width: 60%;
     left: 20%;
 }
+.col-3 {
+    width: 33.3%;
+}
 /* genaral end */
 
 /* header start */
@@ -84,6 +87,7 @@
 } 
 .blog2 {
     width: 100vw;
+    background: linear-gradient(rgba(0, 162, 255, 0.5), rgba(181, 228, 255, 0.5));
 }
 .blog2 img {
     width: 30%;
@@ -92,6 +96,46 @@
 }
 .blog2 h2, .blog2 p {
     padding: 10px 5px;
+}
+.plans {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.plans_ {
+    display: flex;
+}
+.plans h2 {
+    text-align: center;
+}
+.plan {
+    padding: 10px 50px;
+    text-align: center;
+}
+.plan a {
+    text-decoration: none;
+    color: rgb(0, 12, 105);
+}
+.plan a:hover {
+    color: rgb(53, 0, 31);
+    transition: .5s;
+}
+.plan_ {
+    width: 100%;
+    background: linear-gradient(rgba(255, 170, 0, 0.5), rgba(255, 179, 27, 0.5));
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.plan_:hover {
+    background-color: rgb(255, 170, 0);
+    transition: .5s;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.plan ul {
+    padding: 10px;
+}
+.plan li {
+    list-style-type: none;
+    text-align: center;
 }
 /* main end */
 
