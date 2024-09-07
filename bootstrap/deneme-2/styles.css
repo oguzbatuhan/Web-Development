@@ -1,0 +1,29 @@
+body {
+    font-family: "Handjet", sans-serif;
+}
+.row {
+    height: 201px;
+    width: 804px;
+}
+h5 {
+    box-sizing: border-box;
+    text-align: end;
+    padding-top: 24.5px;
+}
+div {
+    display: inline;
+    font-size: 80px;
+}
+.a1 {color: #f94144;}
+.a2 {color: #f3722c;}
+.a3 {color: #f8961e;}
+.a4 {color: #f9844a;}
+.a5 {color: #f9c74f;}
+.a6 {color: #90be6d;}
+.a7 {color: #43aa8b;}
+.a8 {color: #4d908e;}
+.a9 {color: #577590;}
+.a10 {color: #277da1;}
+.a11 {color: #3772ff;}
+.a12 {color: #df2935;}
+.a13 {color: #fdca40;}
