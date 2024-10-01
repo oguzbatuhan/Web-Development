@@ -1,0 +1,19 @@
+{
+  "name": "bs-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch styles/ -o css/",
+    "watch-css": "node-sass --watch styles/ -o css/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
