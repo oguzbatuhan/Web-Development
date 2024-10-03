@@ -1,0 +1,12 @@
+
+- {npm init --yes} package.json dosyasını yükler.
+
+- {npm i node-sass} sass dosyasını yükler.
+
+- {node-sass --watch scss/ -o css/ --output-style compressed} package.json dosyası içerisinde script kısmına yazılır dosyaların nereye kaydedilceni ve otomatik takip edilmesini sağlar.
+
+- {npm install bootstrap@5.3.3} bootstrap dosyasını yükler.
+
+- {npm run scss} dosyayı çalıştırır.
+
+- {npm install} node_modules tekrar yükler(projeyi kaydetcen zaman node_modules i sil).
