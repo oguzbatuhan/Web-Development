@@ -10,3 +10,7 @@
 - {npm run scss} dosyayı çalıştırır.
 
 - {npm install} node_modules tekrar yükler(projeyi kaydetcen zaman node_modules i sil).
+
+- {rm -rf node_modules} ilgili dosyayı(node_modules) siler.
+
+- {npm install} node_modules i yükler.
