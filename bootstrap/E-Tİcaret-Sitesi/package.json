@@ -11,6 +11,7 @@
   "description": "",
   "dependencies": {
     "bootstrap": "^5.3.3",
+    "fslightbox": "^3.4.2",
     "node-sass": "^9.0.0"
   }
 }
